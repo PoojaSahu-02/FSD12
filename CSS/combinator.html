@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinator selector</title>
+    <style>
+        /* decendent selector (space) */
+        .container p{
+            background-color: aquamarine;
+        }
+        /* child selector (>) */
+        .container>p{
+            background-color: blue;
+        }
+        /* Adjacent sibling , next sibling */
+        .container+p{
+            background-color: brown;
+        }
+        /* General selector, next subsequent selector */
+        .container~p{
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>Para 1</p>
+        <p>para 2</p>
+        <div>
+            <p>para 3</p>
+        </div>
+        <p>para 4</p>
+    </div>
+    <!-- <h1>ksjdfhbi</h1> -->
+    <p>para 5</p>
+    <p>para 6</p>
+</body>
+</html>

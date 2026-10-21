@@ -1,0 +1,54 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+#para3{
+    color: aquamarine;
+    background-color: blue;
+}
+h1{
+    color: brown;
+}
+p,.para2,#para3{
+    color: red;
+}*/
+ h2{
+    color: blue;
+    font-size: 48px;
+    text-shadow: 3px 5px 5px red;
+
+} 
+
+
+.para{
+    /* text-align: center; */
+    /* text-decoration: underline overline; */
+    /* text-transform: uppercase; */
+    text-indent: 50px;
+    text-overflow: clip;
+    word-spacing: 10px;
+    /* letter-spacing: 5px; */
+    line-height: 40px;
+    font-size: 24px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 100;
+    font-style:normal;
+    font-variant: small-caps;
+    background-color: rgb(62, 62, 201,0.4);
+}
+a{
+    text-decoration: none;
+}
+.container{
+    height: 100%;
+    background-color: blue;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3Es65IWVDwS5jug3mVURjLfYLgVTYq6YMxf803L1tAQ&s");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    color: white;
+    /* opacity: 0.2; */
+    background-attachment: fixed;
+}

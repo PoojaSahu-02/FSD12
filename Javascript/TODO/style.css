@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: bisque;
+    height: 200px;
+    width: 100%;
+}
+.container input{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.container button{
+    padding: 10px 20px;
+    border-radius:20px ;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.list-Container{
+    background-color: darkgray;
+    margin: 30px;
+
+}
