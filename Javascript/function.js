@@ -10,6 +10,13 @@
 //     console.log("hello")
 // }
 // greet()
+// ... - spread opearator
+// ...d-  rest parameter
+// function sum(a,b,c,...d){
+// console.log(a,b,c,d)
+// console.log(a+b+c+d[1])
+// }
+// sum(1,2,3,4,5,6,7,8)
 
 // default parametrized function or function with default parameters
 // function sumOfTwoNumbers (a = 0,b = 0,c = 0,d = 0){
@@ -159,7 +166,6 @@
 //     let a = 10;
 //     console.log("this is outer function ",a)
 //     function inner(){
-//         a = 20;
 //         console.log("this is inner function ",a)
 //     }
 //     inner()
@@ -192,25 +198,68 @@
 // }
 // testHoisting();
 
-const user = { name: "Alice" };
-user.name = "Bob";
+// const user = { name: "Alice" };
+// user.name = "Bob";
 
-const arr = [1, 2, 3];
-arr.push(4);
+// const arr = [1, 2, 3];
+// arr.push(4);
 
-try {
-    user = { name: "Charlie" };
-} catch (err) {
-    console.log("Error Caught");
-}
+// try {
+//     user = { name: "Charlie" };
+// } catch (err) {
+//     console.log("Error Caught");
+// }
 
-console.log(user.name);
-console.log(arr.length);
-
-
+// console.log(user.name);
+// console.log(arr.length);
 
 
 
+
+// function greet(){
+//     console.log("this is greet function")
+//     console.log("welcome")
+// }
+
+// function user(callback){
+//     console.log("this is user funtion")
+// callback()
+
+// }
+// user(greet)
+
+
+// function user(callback){
+//     console.log("this is user function")
+//     callback()
+//     return function(){
+//         console.log("this is returning function")
+//     }
+// }
+// let res = user(greet)
+// console.log(res)
+
+// IIFE -(immediate invoke function expresion)
+// (function greet(){
+//     console.log("greet")
+// })()
+
+
+// const greet = ()=>{
+//     console.log("welcome")
+// }
+// greet()
+// const greet = a=>a*a
+
+// let res = greet(10)
+// console.log(res)
+
+
+
+// for (const i = 0; i < 5; i++) {
+//   console.log(i)     
+// }
+// console.log(i) 
 
 
 

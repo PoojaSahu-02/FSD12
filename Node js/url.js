@@ -1,0 +1,3 @@
+const url = require('url')
+let URL = 'https://www.google.com/search?q=javascript+interview+questions&rlz=1C1VDKB_enIN1078IN1078&oq=javascript+interview+question&gs_lcrp=EgZjaHJvbWUqBggAECMYJzIGCAAQIxgnMgYIARBFGDkyBwgCEAAYgAQyCggDEAAYgAQYtAcyCggEEAAYgAQYtAcyCggFEAAYgAQYtAcyCggGEAAYgAQYtAcyCggHEAAYgAQYtAcyCggIEAAYgAQYtAcyCggJEAAYgAQYtAfSAQg3NTk2ajBqN6gCCLACAfEFhKnOS6-aVAk&sourceid=chrome&source=chrome.ob&ie=UTF-8'
+console.log(url.parse(URL))

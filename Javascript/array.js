@@ -1,6 +1,11 @@
 // let arr = [12,null,"hello",10.5,undefined]
 // console.log(arr)
 // console.log(arr.length)
+// console.log("last index of array is = "+(arr.length -1))
+// string template ``(backticks)
+// let a = 10
+// let b = 20
+// console.log(`a = ${a} and b = ${b}`)
 // console.log(`last index of array = ${arr.length-1}`)
 // console.log(Array.isArray(arr))
 // console.log(typeof(arr))
@@ -34,13 +39,14 @@
 
 // let a = prompt("Enter value")
 // console.log(a,typeof(a))
+// console.log(a+1)
 // a= Number(a)
 // console.log(a,typeof(a))
 
 // let size = +prompt("Enter array size")
 
 // let brr = new Array(size)
-// console.log(size)
+// console.log(size,typeof(size))
 // brr[0] = Number(prompt("Enter array element"))
 // brr[1] = +prompt("Enter array element")
 
@@ -64,7 +70,7 @@
 // arr.shift()
 // console.log(arr)
 
-// arr.splice(2,0,"new element","akhdbv")
+// arr.splice(2,0,"new element","abc")
 // console.log(arr)
 
 // let brr = [1,2,3,4]
@@ -73,9 +79,9 @@
 
 
 
-let arr = [13,17,57,103,233]
+// let arr = [12,17,57,103,232]
 // [even,odd,odd,odd,even]
-// let result = arr.map((ele,ind)=>{
+// let result = arr.map(function(ele,ind){
 // if(ele%2 == 0)
 //     return "even"
 // else
@@ -90,6 +96,7 @@ let arr = [13,17,57,103,233]
 // else
 //     console.log("odd")
 // })
+
 // let res1 = arr.some((ele)=>{
 // if(ele%2 === 0)
 //     return true
