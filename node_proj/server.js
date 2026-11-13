@@ -61,6 +61,7 @@ let deleteStudent = async (req, res) => {
     data,
   });
 };
+// http://loclahost:3000//student/createstudent
 app.post("/student/createstudent", createStudent);
 app.get("/student/getallstudent", getAllstudent);
 app.get("/student/getstudent/:id", getStudent);
